@@ -1,0 +1,58 @@
+STO num0 1
+STO num1 2
+STO num2 3
+STO num3 4
+STO num4 5
+STO num5 6
+STO num6 7
+STO num7 8
+STO num8 9
+STO num9 10
+STO num10 11
+STO num11 12
+STO num12 13
+STO num13 14
+STO num14 16
+STO num15 1231
+STO num16 11
+STO num17 1123
+STO num18 12
+STO num19 13
+STO num20 15
+STO num21 15
+STO num22 17889
+STO num23 13
+STO num24 132
+STO num25 112
+STO num26 112
+STO num27 12
+;
+OUT num0 
+OUT num1 
+OUT num2 
+OUT num3 
+OUT num4 
+OUT num5 
+OUT num6 
+OUT num7 
+OUT num8 
+OUT num9 
+OUT num10
+OUT num11
+OUT num12
+OUT num13
+OUT num14
+OUT num15
+OUT num16
+OUT num17
+OUT num18
+OUT num19
+OUT num20
+OUT num21
+OUT num22
+OUT num23
+OUT num24
+OUT num25
+OUT num26
+OUT num27
+HALT
