@@ -99,6 +99,7 @@ void setValue(int index, int value) {
 // dump the buffer to output (cuurently not working fully)
 int DUMP(int index) {
     printf(buffer);fflush(stdout);
+    return nextLine(index);
 }
 
 // pass in the first index of an identifier or string literal, and print the value to STDOUT
@@ -137,7 +138,7 @@ int IN(int index) {
 }
 
 // arithmetic functions
-int ADD(int index) {
+int ADD(int index) { 
     setValue(index + 1, getValue(nextToken(index)) + getValue(nextToken(nextToken(index))));
     return nextLine(index);
 }
