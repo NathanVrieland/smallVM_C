@@ -1,0 +1,15 @@
+00a50004
+o"Enter the first number:"
+i$0
+o"Enter the second number:"
+i$1
++$2 $0 $1
+/$3 $2 2
+o"The average of"
+o$0
+o"and"
+o$1
+o"is"
+o$3
+o"H A V E A N I C E D A Y !"
+h
